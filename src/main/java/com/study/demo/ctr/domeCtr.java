@@ -13,6 +13,7 @@ public class domeCtr {
     @GetMapping("call")
     public String hello(String s){
 
+
         return s;
     }
 }
